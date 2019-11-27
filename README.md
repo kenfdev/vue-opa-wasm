@@ -1,19 +1,20 @@
 # vue-opa-wasm
 
-## Project setup
-```
-npm install
-```
+OPA WASM integration with Vue.js
 
-### Compiles and hot-reloads for development
+## Pre-requisites
+
+* [opa v0.15.1](https://github.com/open-policy-agent/opa/releases/tag/v0.15.1) and above
+
+## Run
+
 ```
+# install dependencies
+npm install
+
+# build the wasm
+./opa/build_wasm.sh
+
+# start the local server
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
